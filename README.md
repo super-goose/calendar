@@ -1,6 +1,6 @@
 ## About
 
-This is a [Next.js](https://nextjs.org/) project (bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)), that I am porting an old calendar app into. I loved the look of my calendar, and used it for tracxking things. But it was made a while back with CRA, and I want to update it.
+This is a [Next.js](https://nextjs.org/) project (bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)), that I am porting an old calendar app into. I loved the look of my calendar, and used it for tracking things. But it was made a while back with CRA, and I want to update it.
 
 ## Getting Started
 
