@@ -1,0 +1,9 @@
+.quoteOrSomething {
+  border-top: 4px solid #74dfff;
+  border-bottom: 4px solid #74dfff;
+  margin-top: 1em;
+  text-align: center;
+  padding: 1em;
+  color: #fdf9f3;
+  font-family: monospace;
+}

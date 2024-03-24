@@ -1,0 +1,62 @@
+.calendarHeader {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* .currentMonthAndYear {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+} */
+
+.dateCell {
+  background: #bcbbbb;
+  text-align: center;
+
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #bcbbbb;
+  border-left-color: #bcbbbb;
+  border-right-color: #908e8f;
+  border-bottom-color: #908e8f;
+  margin: -1px;
+  color: #2c292d;
+  height: 1rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 500px) {
+  .dateCell {
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .dateCell {
+    height: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.dateCell.vice {
+  background: #908e8f;
+  text-align: center;
+}
+.dateCell.currentMonth {
+  background: #fdf9f3;
+}
+.dateCell.currentMonth.vice {
+  background: #2c292d;
+}
+
+.dateCell.today {
+  font-weight: bold;
+  text-decoration: underline;
+  background: #ffd866;
+}
+
+.dateCell.vice {
+  color: #a9dc76;
+}

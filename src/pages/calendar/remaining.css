@@ -1,0 +1,27 @@
+.remaining-container {
+  color: #fdf9f3;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.remaining-container .label {
+  color: #78dce8;
+}
+
+.remaining-container .graph {
+  text-align: center;
+}
+.remaining-container .chips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.remaining-container .chips .bud {
+  color: #a9dc76;
+}
+.remaining-container .chips .booze {
+  color: #fc9867;
+}
+  
+  
